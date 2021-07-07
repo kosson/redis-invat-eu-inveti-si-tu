@@ -2,7 +2,7 @@
 
 Sunt colecții de chei-valori. Seamănă cu un obiect JSON. Hash-urile nu sunt create în baza unei scheme și nici nu au o ordine internă.
 
-Hash-urile sunt mutabile. Poți adăuga, șterge, modifica, incrementa, etc. oricând valorile lor. Hash-urile sunt pe un singur nivel. Nu au adâncime. Acest lucru înseamnă că nu poți instroduce în interior seturi sau liste. Atunci când ștergi cheia hash-ului toate valorile sale sunt șterse.
+Hash-urile sunt mutabile. Poți adăuga, șterge, modifica, incrementa, etc. oricând valorile lor. Hash-urile sunt pe un singur nivel. Nu au adâncime. Acest lucru înseamnă că nu poți introduce în interior seturi sau liste. Atunci când ștergi cheia hash-ului toate valorile sale sunt șterse.
 
 Pot fi folosite pentru a ține evidența numărului de accesări ale unui endpoint al unui API.
 

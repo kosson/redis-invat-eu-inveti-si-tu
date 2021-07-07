@@ -13,7 +13,7 @@ Pentru a șterge înregistrări, se folosește `ZREM`. Pentru a vedea câți mem
 
 ## GEOADD
 
-Comanda permite adăugarea longitudinii, latitudinii și a unui nume într-o cheie. Datele sunt stocate ca un sorted set, fapt care permite interogările folosind comanda `GEOSEARCH`. Scorul este geohash-ul.
+Comanda permite adăugarea longitudinii, latitudinii și a unui nume într-o cheie. Datele sunt stocate ca un *sorted set*, fapt care permite interogările folosind comanda `GEOSEARCH`. Scorul este geohash-ul.
 Semnătura: `GEOADD key [NX|XX] [CH] longitude latitude member [longitude latitude member ...]`.
 
 Comanda permite adăugarea mai multor puncte pentru un singur apel.
@@ -27,6 +27,11 @@ Semnătura: `GEOHASH key member [member ...]`.
 
 Comanda returnează longitudinea și latitudinea unuia sau a mai multor membri ai setului.
 Semnătura: `GEOPOS key member [member ...]`.
+
+## GEODIST
+
+Comanda returnează distanța dintre doi membri ai unui index reprezentat de un set ordonat.
+Semnătura: `GEODIST key member1 member2 [m|km|ft|mi]`.
 
 ## Resurse
 
